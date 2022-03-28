@@ -342,3 +342,103 @@
   }
 </style>
 <h1 class="pink-text">Hello World!</h1>
+
+<!-- Создайте объявление CSS для своего orange-textидентификатора в своем styleэлементе. -->
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+
+  .pink-text {
+    color: pink;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .blue-text {
+    color: blue;
+  }
+
+</style>
+<h1 id="orange-text" class="pink-text blue-text">Hello World!</h1>
+
+<!-- Let's add the keyword !important to your pink-text element's color declaration to make 100% sure that your h1 element will be pink. -->
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange ;
+  }
+  .pink-text {
+    color: pink !important;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
+
+<!-- Replace the color words in our style element with their correct hex codes. -->
+
+<style>
+  .red-text {
+    color: #FF0000;
+  }
+  .green-text {
+    color: #00FF00;
+  }
+  .dodger-blue-text {
+    color: #1E90FF;
+  }
+  .orange-text {
+    color: #FFA500;
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="green-text">I am green!</h1>
+
+<h1 class="dodger-blue-text">I am dodger blue!</h1>
+
+<h1 class="orange-text">I am orange!</h1>
+
+<!-- Go ahead, try using the abbreviated hex codes to color the correct elements. -->
+
+<style>
+  .red-text {
+    color: #F00;
+  }
+  .fuchsia-text {
+    color: #F0F;
+  }
+  .cyan-text {
+    color: #0FF;
+  }
+  .green-text {
+    color: #0F0;
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="fuchsia-text">I am fuchsia!</h1>
+
+<h1 class="cyan-text">I am cyan!</h1>
+
+<h1 class="green-text">I am green!</h1>
+
+<!-- Let's replace the hex code in our body element's background color with the RGB value for black: rgb(0, 0, 0) -->
+
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+</style>
