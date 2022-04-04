@@ -86,3 +86,37 @@
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
   </p>
+
+  <!-- Добавьте line-heightсвойство к pтегу и установите его на 25px. -->
+
+  <style>
+    p {
+      font-size: 16px;
+      line-height: 25px;
+    }
+  </style>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  </p>
+
+  <!-- Change the position of the h2 to relative, and use a CSS offset to move it 15 pixels away from the top of where it sits in the normal flow. Notice there is no impact on the positions of the surrounding h1 and p elements. -->
+
+  <style>
+    h2 {
+      position: relative;
+      top: 15px;
+      left: 15px;
+    }
+    #searchbar {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+
+
+  }
+  </style>
+  <body>
+    <h1>On Being Well-Positioned</h1>
+    <h2>Move me!</h2>
+    <p>I still think the h2 is where it normally sits.</p>
+  </body>
